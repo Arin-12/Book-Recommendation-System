@@ -1,0 +1,9 @@
+# Large ML artifacts
+*.pkl
+
+# Models & embeddings
+embedding_model/
+models/
+
+# Data
+data/
