@@ -7,9 +7,9 @@ body {
     width: 100%;
     height: 60px;
     background: linear-gradient(90deg, #2b5876, #4e4376);
-    display: flex;                      /* REQUIRED */
-    justify-content: flex-start;     /* left + right separation */
-    padding: 0 25px;                    /* reduced side padding */
+    display: flex;                    
+    justify-content: flex-start;    
+    padding: 0 25px;                 
 }
 
 /* Paragraph / Logo */
@@ -26,27 +26,23 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 16px;                          /* short spacing */
-    margin: 0;                          /* IMPORTANT */
-    padding-left: 100px;                         /* IMPORTANT */
+    gap: 16px;                         
+    margin: 0;                          
+    padding-left: 100px;                        
 }
 
-/* Links */
 .navbar-nav li a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 15px;                    /* slightly smaller */
-    padding: 6px 10px;                  /* SHORT padding */
+    font-size: 15px;                   
+    padding: 6px 10px;                 
     border-radius: 4px;
     transition: background 0.3s ease;
 }
 
-/* Hover */
 .navbar-nav li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
-
-
 
 .container {
     width: 90%;
