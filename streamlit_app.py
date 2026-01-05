@@ -1,3 +1,5 @@
+# redeploy trigger
+
 import streamlit as st
 import pickle
 import numpy as np
@@ -299,3 +301,4 @@ if st.button("Recommend") and query:
 
     else:
         st.warning("No recommendations found.")
+
