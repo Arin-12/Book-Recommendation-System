@@ -1,4 +1,4 @@
-# redeploy trigger
+# redeploy trigger – force clean build
 
 import streamlit as st
 import pickle
@@ -301,4 +301,5 @@ if st.button("Recommend") and query:
 
     else:
         st.warning("No recommendations found.")
+
 
