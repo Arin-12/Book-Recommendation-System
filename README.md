@@ -28,3 +28,8 @@ Recommends books using:
   - **Streamlit** – quick deployment  
 
 ---
+## 🚀 Live Demo
+
+Try the app here:  
+👉 https://book-recommendation-system-yfrdsscyjmadrdefzvefre.streamlit.app/
+
